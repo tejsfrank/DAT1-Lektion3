@@ -68,4 +68,6 @@ public class Metoder {
         System.out.println("Jeg hedder " + ditNavn);
     }
 
+    public static void hejLiselotte() {
+        System.out.println("Hej Liselotte");
 }
