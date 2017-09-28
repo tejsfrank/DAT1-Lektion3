@@ -21,6 +21,7 @@ public class Metoder {
         System.out.println(m.sum3(8, 5 , 10));
 
         indtastOgVisNavn("András");
+        ditNavn("Daniel");
 
     }
 
@@ -53,6 +54,10 @@ public class Metoder {
 
     public static void indtastOgVisNavn(String navn) {
         System.out.println("Hej " + navn);
+    }
+    
+    public static void indtastDitNavn(String ditNavn) {
+        System.out.println("Jeg hedder " + ditNavn);
     }
 
 }
