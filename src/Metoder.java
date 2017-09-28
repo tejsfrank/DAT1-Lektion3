@@ -55,4 +55,6 @@ public class Metoder {
         System.out.println("Hej " + navn);
     }
 
+    public static void hejLiselotte() {
+        System.out.println("Hej Liselotte");
 }
