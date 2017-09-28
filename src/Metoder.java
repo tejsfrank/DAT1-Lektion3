@@ -23,6 +23,7 @@ public class Metoder {
         System.out.println(m.sum3(8, 5 , 10));
 
         indtastOgVisNavn("András");
+        ditNavn("Daniel");
 
     }
 
@@ -57,9 +58,14 @@ public class Metoder {
         System.out.println("Hej " + navn);
     }
     
+
     public static void lassesNavn(String navn){
         System.out.println(navn + " har lavet sin metode");
     }
     
-    
+
+    public static void indtastDitNavn(String ditNavn) {
+        System.out.println("Jeg hedder " + ditNavn);
+    }
+
 }
