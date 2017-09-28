@@ -14,6 +14,8 @@ public class Metoder {
         Metoder.udskrivHej();
         udskrivHej();
         udskrivHej();
+        
+        lassesNavn("Lasse");
 
         double skabnen = (int) 6*Math.random()+1;
         System.out.println(skabnen);
@@ -54,5 +56,10 @@ public class Metoder {
     public static void indtastOgVisNavn(String navn) {
         System.out.println("Hej " + navn);
     }
-
+    
+    public static void lassesNavn(String navn){
+        System.out.println(navn + " har lavet sin metode");
+    }
+    
+    
 }
