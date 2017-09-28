@@ -70,9 +70,11 @@ public class Metoder {
 
     public static void hejLiselotte() {
         System.out.println("Hej Liselotte");
-    }
-    
-    public static void navnMikkel() {
-    System.out.println("Mit navn er Mikkel Sørensen. ");
-    }
+        
+     
 }
+
+    public static void mathias() {
+        System.out.println("Hej Mathias");
+    }
+        System.out.println("Hej Mathias");
